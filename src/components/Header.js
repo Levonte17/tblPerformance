@@ -1,6 +1,14 @@
+import { Link } from "react-router-dom";
+
 
 function Header(props) {
-  return <h1> Trained By Lockdown </h1>;
+  return(
+    <nav>
+         <Link to="/">
+         <div>Trained By Lockdown Performance</div>
+         </Link>
+    </nav>
+  )
 }
 
 export default Header;
